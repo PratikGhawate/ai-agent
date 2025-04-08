@@ -1,6 +1,5 @@
 # 🧠 Conversational AI Analytics Engine!
 ### Conversational Analytics on Microsoft SQL Server  
-*Built with love by Pratik &mdash; README authored by a Senior AI Engineer at Google.*
 
 ---
 
