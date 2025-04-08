@@ -45,23 +45,17 @@ No more context‑switching between BI tools, no more brittle saved queries—ju
 
 1. **Clone & cd**
    ```bash
-   git clone https://github.com/<your‑handle>/sql-gpt-chatbot.git
+   git clone https://github.com//sql-gpt-chatbot.git
    cd sql-gpt-chatbot
    ```
-
-2. **Install deps**
-   ```bash
-   pip install -r requirements.txt
-   # plus the Microsoft ODBC Driver 17 for SQL Server
+   
+2. **Configure environment**
    ```
-
-3. **Configure environment**
-   ```
-   OPENAI_API_KEY=sk‑...
-   DB_SERVER=localhost,1433
-   DB_NAME=SampleDB
-   DB_USER=sa
-   DB_PASSWORD=dockerStrongPwd123
+   OPENAI_API_KEY= 
+   DB_SERVER=
+   DB_NAME=
+   DB_USER=
+   DB_PASSWORD=
    ```
 
 4. **Run**
