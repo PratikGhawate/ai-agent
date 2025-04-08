@@ -45,12 +45,13 @@ No more context‑switching between BI tools, no more brittle saved queries—ju
 
 1. **Clone & cd**
    ```bash
-   git clone https://github.com//sql-gpt-chatbot.git
-   cd sql-gpt-chatbot
+   git clone https://github.com/PratikGhawate/ai-agent.git
+   cd ai-agent
    ```
    
 2. **Configure environment**
    ```
+   Enter your DB credentials:
    OPENAI_API_KEY= 
    DB_SERVER=
    DB_NAME=
@@ -89,7 +90,7 @@ Total rows: 3 | Execution time: 0.17 s
 
 ---
 
-## 🏅 Design highlights (what makes this *Google‑grade*)
+## 🏅 Design highlights (what makes this *Awesome*)
 * **Idempotent by design** – read‑only guarantees unless explicitly overridden.  
 * **Latency‑aware** – network and DB operations are timed; future PRs will add async concurrency.  
 * **Extensible schema introspection** – swap in `INFORMATION_SCHEMA` calls to build prompts dynamically.  
